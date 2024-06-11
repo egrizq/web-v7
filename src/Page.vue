@@ -1,5 +1,5 @@
 <script setup>
-
+    import Education from './components/Education.vue'
 </script>
 
 <template>
@@ -21,7 +21,7 @@
                     <ul class="ml-5">
                         <li class="list-disc">
                             <div class="flex flex-row justify-between">
-                                <p class="text-base">Calibration Engineering</p>
+                                <p class="text-base text-black">Calibration Engineering</p>
                                 <p>2021-2023</p>
                             </div>
                             <p>PT. Suryaraya Rubberindo Industries</p>
@@ -31,30 +31,7 @@
             </div>
         </div>
     
-        <div class="pt-5">
-            <p class="pb-2 text-lg">Education</p>
-        </div>
-    
-        <div class="flex flex-row space-x-1">
-            <div class="text-zinc-600 w-full">
-                <ul class="ml-5 list-disc">
-                    <li>
-                        <div class="flex flex-row justify-between">
-                            <p class="text-base">Computer Science</p>
-                            <p>2022-2026</p>
-                        </div>
-                        <p>Universitas Dian Nusantara</p>
-                    </li>
-                    <li>
-                        <div class="flex flex-row justify-between">
-                            <p class="text-base">Data Science</p>
-                            <p>2023-2024</p>
-                        </div>
-                        <p>Dicoding x IDCamp</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <Education />
     </div>
 
 </template>

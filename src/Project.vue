@@ -5,7 +5,7 @@
     const listProject = reactive([
         {
             title: "Optimizing Data Preprocessing within a Seconds by Golang Goroutine's",
-            main: "Optimize process and store 15001 rows of CSV and 1000 JSON file into PostgreSQL database within a seconds with Goroutine's",
+            main: "Data processing 16.000 data into PostgreSQL database within a seconds with Goroutine's",
             link: "https://github.com/egrizq/product-analysis-with-concurrency/blob/master/README.md"
         },
         {
@@ -19,7 +19,7 @@
             link: "https://medium.com/@rizq.ramadhan17/bike-sharing-analysis-cc8f1c987b1e"
         },
         {
-            title:"The Main Idea Building Text Summarization Using Hugging Face!",
+            title:"Building Text Summarization Using Hugging Face!",
             main:"Sharing ideas and building text summarization using Transformers from Hugging Face to understand English long text into a concise conclusion Bahasa.",
             link:"https://github.com/egrizq/text_summarization",
         },

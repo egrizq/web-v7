@@ -18,7 +18,7 @@
 <template>
     <main class="containter mx-auto py-5">
         <div class="flex justify-center">
-            <div class="flex flex-col w-6/12 space-y-5">
+            <div class="flex flex-col w-10/12 sm:w-8/12 md:w-6/12 space-y-5">
                 <Profile />
                 <Link />
                 <RouterView />
