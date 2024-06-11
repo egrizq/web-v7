@@ -1,5 +1,6 @@
 <script setup>
     import Education from './components/Education.vue'
+    import Hover from './components/Hover.vue'
 </script>
 
 <template>
@@ -32,6 +33,8 @@
         </div>
     
         <Education />
+
+        <Hover />
     </div>
 
 </template>
