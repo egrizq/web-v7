@@ -4,7 +4,7 @@
     const listEducation = reactive([
         {
             title: "Computer Science",
-            years: "2022-2026",
+            years: "2022-Present",
             place: "Universitas Dian Nusantara"
         },
         {
