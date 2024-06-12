@@ -1,6 +1,7 @@
 <script setup>
     import Experience from './components/Experience.vue'
     import Education from './components/Education.vue'
+    import LeetCode from "./components/LeetCode.vue";    
     import Hover from './components/Hover.vue'
 </script>
 
@@ -17,6 +18,7 @@
     
         <Experience />
         <Education />
+        <LeetCode />
         <Hover />
     </div>
 
