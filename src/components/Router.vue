@@ -8,5 +8,8 @@
         <RouterLink to="/project" class="py-1 px-2"
             activeClass="py-1 px-2 bg-neutral-900 text-white rounded-md">
             Project</RouterLink>
+        <RouterLink to="/journal" class="py-1 px-2"
+            activeClass="py-1 px-2 bg-neutral-900 text-white rounded-md">
+            Journal</RouterLink>
     </div>
 </template>

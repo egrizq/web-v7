@@ -13,7 +13,9 @@ export default {
             'xl': '1280px',
             '2xl': '1536px',
         },
-        extend: {},
+        extend: {
+ 
+        },
         fontFamily: {
             mono: ['Cascadia Mono', 'monospace'],
             roboto: ['Roboto'],
