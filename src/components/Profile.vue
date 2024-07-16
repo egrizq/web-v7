@@ -10,10 +10,10 @@
              Backend Developer</p>
 
         <div class="flex flex-row space-x-5 mt-5 content-center">
-            <a href="CV_Muhammad Rizq Ramadhan.pdf" download>
+            <!-- <a href="CV_Muhammad Rizq Ramadhan.pdf" download>
                 <img src="/cv.svg" class="hover:scale-150 ease-in-out duration-300"
                     alt="profile" width="31" height="auto">
-            </a>
+            </a> -->
             <a href="https://github.com/egrizq">
                 <img src="/github.svg" class="hover:scale-150 ease-in-out duration-300"
                     alt="profile" width="32" height="auto">
