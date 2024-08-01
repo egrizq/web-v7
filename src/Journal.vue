@@ -3,7 +3,12 @@
     
     const listJournal = reactive([  
         {
-            title: "How Programming Shapes your  Mind!",
+            title: "This is how you handle an API response!",
+            link: "https://medium.com/@rizq.ramadhan17/handle-your-api-with-zod-types-5d8631351322",
+            date: "Jul 31, 2024"
+        },
+        {
+            title: "How programming shapes your mind!",
             link: "https://medium.com/@rizq.ramadhan17/how-programming-shapes-your-mind-57ce82ebb808",
             date: "Jul 01, 2024"
         },
@@ -13,12 +18,12 @@
             date: "Dec 11, 2023"
         },
         {
-            title: "My Reflection on Data Cleaning",
+            title: "My reflection on data cleaning",
             link: "https://medium.com/@rizq.ramadhan17/my-reflection-on-data-cleaning-426cf592abb9",
             date: "Oct 18, 2023"
         },
         {
-            title: "Are You Fear?",
+            title: "Are you fear?",
             link: "https://medium.com/@rizq.ramadhan17/are-you-fear-f1449f2f129a",
             date: "Jul 08, 2023"
         },
