@@ -3,7 +3,7 @@
 <template>
     <div class="flex flex-col">
          <img src="/round photo.webp" class="pb-5" 
-             alt="profile" width="65" height="auto">
+             alt="profile" width="65" height="65">
          <p class="text-xl" >
              Muhammad Rizq Ramadhan</p>
          <p class="text-zinc-600" >
