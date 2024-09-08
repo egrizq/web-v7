@@ -21,17 +21,43 @@
         <p class="pb-2 text-lg">Education</p>
     </div>
 
-    <div class="flex flex-row space-x-1">
+    <div class="flex flex-row">
         <div class="text-zinc-600 w-full">
-            <ul class="ml-5 space-y-2">
-                <li v-for="(data, index) in listEducation" :key="index" class="list-disc">
-                    <div class="flex flex-row justify-between">
-                        <p class="text-black text-base">{{ data.title }}</p>
-                        <p>{{ data.years }}</p>
+            <div class="flex justify-between ml-2">
+                <div class="flex flex-row space-x-2 w-9/12">
+                    <div class="">
+                        <img 
+                            height="32" width="32" 
+                            src="/kampus.png" alt="logo undira" 
+                            class="rounded-lg"
+                        >
                     </div>
-                    <p>{{ data.place }}</p>
-                </li>
-            </ul>
+                    <div class="w-full">
+                        <p class="text-black text-base">Computer Science</p>
+                        <p>Universitas Dian Nusantara</p>
+                    </div>
+                </div>
+
+                <p>2022-Present</p>
+            </div>
+
+            <div class="flex justify-between ml-2 pt-4">
+                <div class="flex flex-row space-x-2 w-9/12">
+                    <div class="">
+                        <img 
+                            height="35" width="35" 
+                            src="/dicoding.jpeg" alt="logo dicoding" 
+                            class="rounded-lg"
+                        >
+                    </div>
+                    <div class="w-full">
+                        <p class="text-black text-base">Data Science</p>
+                        <p>IDCamp 2023 X Dicoding</p>
+                    </div>
+                </div>
+
+                <p>2023-2024</p>
+            </div>
         </div>
     </div>
 </template>
