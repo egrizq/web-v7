@@ -36,10 +36,6 @@
         alt: "tailwind",
     },
     {
-        imgLink: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-        alt: "mysql",
-    },
-    {
         imgLink: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
         alt: "postgresql",
     }
