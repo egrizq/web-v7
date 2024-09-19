@@ -29,7 +29,7 @@
                         <div class="">
                             <img 
                                 height="32" width="32" 
-                                src="/kampus.png" alt="logo undira" 
+                                src="/kampus.webp" alt="logo undira" 
                                 class="rounded-lg"
                             >
                         </div>
@@ -63,7 +63,7 @@
                     <div class="">
                         <img 
                             height="32" width="32" 
-                            src="/dicoding.jpeg" alt="logo undira" 
+                            src="/dicoding.webp" alt="logo undira" 
                             class="rounded-lg"
                         >
                     </div>

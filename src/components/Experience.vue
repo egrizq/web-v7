@@ -14,7 +14,7 @@
                             <div class="">
                                 <img 
                                     height="32" width="32" 
-                                    src="/fdr.jpeg" alt="logo undira" 
+                                    src="/fdr.webp" alt="logo undira" 
                                     class="rounded-lg"
                                 >
                             </div>

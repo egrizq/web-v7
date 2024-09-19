@@ -4,6 +4,16 @@
 
     const listProject = reactive([
         {
+            title: "App ToDo with Next.js",
+            main: "Building Next.js App Router fullstack web application with Drizzle ORM",
+            link: "https://github.com/egrizq/todo-app",
+            codes: [
+                "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+                "nextjs.svg",
+                "react.svg",
+            ]
+        },
+        {
             title: "Optimizing Data Preprocessing within a Seconds by Golang Goroutine's",
             main: "Data processing 16.000 data into PostgreSQL database within a seconds with Goroutine's",
             link: "https://github.com/egrizq/product-analysis-with-concurrency/blob/master/README.md",

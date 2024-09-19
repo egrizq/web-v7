@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-    <div class="flex flex-row justify-center content-center pt-10">
-        <p>Thank you for visiting my blog!</p>
-    </div>
+    <footer class="flex flex-row text-zinc-600 justify-center content-center pt-5 text-sm">
+        <p>© 2024 egrizq | rizq.ramadhan17@gmail.com</p>
+    </footer>
 </template>
