@@ -35,15 +35,11 @@
         imgLink: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
         alt: "tailwind",
     },
-    {
-        imgLink: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
-        alt: "postgresql",
-    }
 ])
 </script>
 
 <template>
-    <div class="pt-5">
+    <article class="pt-5">
         <p class="pb-2 text-lg">Tech Stack</p>
         
         <div class="flex flex-row flex-wrap justify-center mx-2 sm:mx-5">
@@ -55,5 +51,5 @@
                     />
             </div>
         </div>
-    </div>
+    </article>
 </template>
