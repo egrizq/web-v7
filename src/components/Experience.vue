@@ -1,4 +1,6 @@
 <script setup>
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion'
+
 </script>
 
 <template>
@@ -29,21 +31,23 @@
 
                         <p class="w-4/12 sm:w-3/12 md:w-4/12 lg:w-3/12 xl:w-2/12 text-end">2021-2023</p>
                     </div>
-<!-- 
-                    <div class="flex flex-col w-11/12 text-justify space-y-2">
-                        <p>Ensuring the accuracy and reliability of precision measurement instruments. Responsible to equipment analysis and adjustment, detailed documentation, and troubleshooting of complex measurement tools.</p>
                     
-                        <ul class="list-disc text-justify ml-4">
-                            <li>Implementation of measuring instruments and testing such as dial gauges, pressure gauges, weighing scales, and calipers to ensure accuracy within ±0.5% tolerance.</li>
-                            <li>Led  and  increased  team  performance  by  enforcing  detail  inspections  and  quality 
-                                standards, eliminated root causes, resulting in achievement of over 95% quality targets.</li>
-                            <li>Coordinated  production  schedules  across  multiple  divisions  guaranteed  on-time  and 
-                                high-quality delivery, exceeding user satisfaction expectations.</li>
-                            <li>Proactively Identified quality and production issues, preventing delays, and minimizing 
-                                production downtime, resulting smooth production flow, and maximized output.</li>
-                            <li>Calibrated over  1,000 instruments annually; >15 portable measuring instruments and >54 machines per day.</li>
-                        </ul>
-                    </div> -->
+                    <div class="flex flex-col text-justify space-y-2 pl-11">
+                        <Accordion type="single" collapsible>
+                            <AccordionItem value="item-1">
+                            <AccordionTrigger>Key Achievements in Calibration Engineering</AccordionTrigger>
+                            <AccordionContent>
+                                <ul class="list-disc pl-5 space-y-1 pt-2">
+                                    <li>Led  and  increased  team  performance  by  enforcing  detail  inspections  and  quality standards, eliminated root causes, resulting in achievement of over 95% quality targets.</li>
+                                    <li>Coordinated production schedules across multiple divisions guaranteed on-time and high-quality delivery, exceeding user satisfaction expectations.</li>
+                                    <li>Proactively Identified quality and production issues, preventing delays and minimizing production downtime, resulting smooth production flow and maximized output.</li>
+                                    <li>Implementation of measuring instruments and testing such as dial gauges, pressure gauges, weighing scales, and calipers to ensure accuracy within ±0.5% tolerance.</li>
+                                    <li>Calibrated over 1,000 instruments annually; >15 portable measuring instruments and >54 machines per day.</li>
+                                </ul>
+                            </AccordionContent>
+                            </AccordionItem>
+                        </Accordion>
+                    </div> 
                 </div>
 
             </div>
