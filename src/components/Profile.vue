@@ -1,9 +1,9 @@
 <script></script>
 
 <template>
-    <div class="flex flex-col">
-         <img src="/round photo.webp" class="pb-5 rounded-full" 
-             alt="profile" width="65" height="65">
+    <div class="flex flex-col pt-5">
+         <!-- <img src="/round photo.webp" class="pb-5 rounded-full" 
+             alt="profile" width="65" height="65"> -->
          <p class="text-xl" >
              Muhammad Rizq Ramadhan</p>
          <p class="text-zinc-600" >

@@ -63,7 +63,25 @@
                     <div class="">
                         <img 
                             height="32" width="32" 
-                            src="/dicoding.webp" alt="logo undira" 
+                            src="/bangkit_academy.jpeg" alt="logo bangkit" 
+                            class="rounded-lg"
+                        >
+                    </div>
+                    <div class="w-full">
+                        <p class="text-black text-base">Cloud Computing</p>
+                        <p>Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</p>
+                    </div>
+                </div>
+
+                <p class="w-4/12 sm:w-3/12 md:w-4/12 lg:w-3/12 xl:w-2/12 text-end">2024</p>
+            </div>
+
+            <div class="flex justify-between ml-2 flex-wrap">
+                <div class="flex flex-row space-x-2 w-8/12 sm:w-9/12 md:w-8/12 lg:w-9/12 xl:w-10/12">
+                    <div class="">
+                        <img 
+                            height="32" width="32" 
+                            src="/idcamp.png" alt="logo idcamp" 
                             class="rounded-lg"
                         >
                     </div>

@@ -9,8 +9,29 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
         
         <div class="flex flex-row space-x-1">
             <div class="text-zinc-600 w-full">
-
                 <div class="flex flex-col space-y-2">
+
+                  <div class="flex justify-between ml-2 flex-wrap">
+                        <div class="flex flex-row space-x-2 w-8/12 sm:w-9/12 md:w-8/12 lg:w-9/12 xl:w-10/12">
+                            <div class="">
+                                <img 
+                                    height="32" width="32" 
+                                    src="/siemens.png" alt="logo siemens" 
+                                    class="rounded-lg"
+                                >
+                            </div>
+                            <div class="w-full space-y-4 text-justify">
+                                <div class="text-start">
+                                    <p class="text-black text-base">Full-Stack Web Developer Intern</p>
+                                    <p>Siemens Indonesia</p>
+                                </div>
+                                    
+                            </div>
+                        </div>
+
+                        <p class="w-4/12 sm:w-3/12 md:w-4/12 lg:w-3/12 xl:w-2/12 text-end">2024-present</p>
+                    </div>
+
                     <div class="flex justify-between ml-2 flex-wrap">
                         <div class="flex flex-row space-x-2 w-8/12 sm:w-9/12 md:w-8/12 lg:w-9/12 xl:w-10/12">
                             <div class="">
@@ -31,8 +52,9 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 
                         <p class="w-4/12 sm:w-3/12 md:w-4/12 lg:w-3/12 xl:w-2/12 text-end">2021-2023</p>
                     </div>
+
                     
-                    <div class="flex flex-col text-justify space-y-2 pl-11">
+                    <!-- <div class="flex flex-col text-justify space-y-2 pl-11">
                         <Accordion type="single" collapsible>
                             <AccordionItem value="item-1">
                             <AccordionTrigger>Key Achievements in Calibration Engineering</AccordionTrigger>
@@ -47,7 +69,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
                             </AccordionContent>
                             </AccordionItem>
                         </Accordion>
-                    </div> 
+                    </div>  -->
                 </div>
 
             </div>
